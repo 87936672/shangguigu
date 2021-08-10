@@ -1,0 +1,13 @@
+mkdir shangguigu
+cd shangguigu
+git init
+touch README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin git@gitee.com:aooa123/shangguigu.git
+git push -u origin master
+
+git config --global user.name "aooa123"
+git config --global user.email "87936672@qq.com"
+
+kk
